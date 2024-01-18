@@ -8,19 +8,19 @@ import photo_6 from '../../img/portfolio/6.jpg';
 import photo_7 from '../../img/portfolio/7.jpg';
 import photo_8 from '../../img/portfolio/8.jpg';
 import photo_9 from '../../img/portfolio/9.jpg';
-import $ from 'jquery';
-import 'isotope-layout';
+// import $ from 'jquery';
+// import 'isotope-layout';
 
 const Portfolio = () => {
-    const isotopeRef = useRef();
+    // const isotopeRef = useRef();
 
-    useEffect(() => {
-        const $isotope = $(isotopeRef.current).isotope({
-            itemSelector: '',
-            layoutMode: 'fitRows'
-        });
-        return () => $isotope('destroy');
-    }, []);
+    // useEffect(() => {
+    //     const $isotope = $(isotopeRef.current).isotope({
+    //         itemSelector: '',
+    //         layoutMode: 'fitRows'
+    //     });
+    //     return () => $isotope('destroy');
+    // }, []);
     
     return (
         <section
