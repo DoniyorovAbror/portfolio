@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import photo from '../../img/1.jpg';
+import photo from '../../img/1.jpeg';
 import Typed from 'typed.js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin, faTwitter, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
