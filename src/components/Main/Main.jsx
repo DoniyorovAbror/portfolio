@@ -57,7 +57,7 @@ const Main = () => {
                                 Hire Me
                             </a>
                             <a href="#about" className="atf-themes-btn">
-                                Download Cv
+                                Download CV
                             </a>
                         </div>
                         {/* <!-- Start Social Share --> */}
