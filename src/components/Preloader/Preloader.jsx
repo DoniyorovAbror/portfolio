@@ -19,7 +19,7 @@ const Preloader = () => {
         return () => {
             window.removeEventListener('load', handlePreloaderAnimation);
         };
-    }, []);
+    }, [window]);
     
     return (
         <div className="atf-preloader">
