@@ -1,5 +1,7 @@
 import React from "react";
-
+import img_01 from '../../img/blog/1.jpg';
+import img_02 from '../../img/blog/2.jpg';
+import img_03 from '../../img/blog/3.jpg';
 const Blog = () => {
     return (
         <section id="blog" className="atf-blog-area atf-section-padding">
@@ -53,7 +55,7 @@ const Blog = () => {
                     >
                         <div className="atf-single-blog">
                             <div className="atf-post-img">
-                                <img src="assets/img/blog/1.jpg" alt="Blog" />
+                                <img src={img_01} alt="Blog" />
                                 <div className="atf-blog-date">
                                     {" "}
                                     <a href="#">
@@ -98,7 +100,7 @@ const Blog = () => {
                     >
                         <div className="atf-single-blog">
                             <div className="atf-post-img">
-                                <img src="assets/img/blog/2.jpg" alt="Blog" />
+                                <img src={img_02} alt="Blog" />
                                 <div className="atf-blog-date">
                                     {" "}
                                     <a href="#">
@@ -142,7 +144,7 @@ const Blog = () => {
                     >
                         <div className="atf-single-blog">
                             <div className="atf-post-img">
-                                <img src="assets/img/blog/3.jpg" alt="Blog" />
+                                <img src={img_03} alt="Blog" />
                                 <div className="atf-blog-date">
                                     {" "}
                                     <a href="#">
