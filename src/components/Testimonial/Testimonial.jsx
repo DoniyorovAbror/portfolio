@@ -1,5 +1,7 @@
 import React from "react";
-
+import img_01 from '../../img/client/01.jpg';
+import img_02 from '../../img/client/02.jpg';
+import img_03 from '../../img/client/03.jpg';
 const Testimonial = () => {
     return (
         <section
@@ -71,7 +73,7 @@ const Testimonial = () => {
                             <div className="atf-testimonial-image">
                                 <a href="#">
                                     <img
-                                        src="assets/img/client/03.jpg"
+                                        src={img_03}
                                         alt=""
                                     />
                                 </a>
@@ -109,7 +111,7 @@ const Testimonial = () => {
                             <div className="atf-testimonial-image">
                                 <a href="#">
                                     <img
-                                        src="assets/img/client/02.jpg"
+                                        src={img_02}
                                         alt=""
                                     />
                                 </a>
@@ -151,7 +153,7 @@ const Testimonial = () => {
                             <div className="atf-testimonial-image">
                                 <a href="#">
                                     <img
-                                        src="assets/img/client/01.jpg"
+                                        src={img_01}
                                         alt=""
                                     />
                                 </a>
