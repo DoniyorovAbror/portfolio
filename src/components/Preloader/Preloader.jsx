@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Preloader = () => {
+    const [visible, setVisible] = useState(true);
+
     useEffect(() => {
         const preloaderStatus = document.querySelector('.atf-status');
         const preloader = document.querySelector('.atf-preloader');
@@ -11,18 +13,22 @@ const Preloader = () => {
 
             setTimeout(() => {
                 preloader.style.display = 'none';
-            }, 750);
+                setVisible(false);
+            }, 500);
         };
-
-        window.addEventListener('load', handlePreloaderAnimation);
+        if (document.readyState === 'complete') {
+            handlePreloaderAnimation();
+        } else {
+            window.addEventListener('load', handlePreloaderAnimation);
+        }
 
         return () => {
             window.removeEventListener('load', handlePreloaderAnimation);
         };
-    }, [window]);
+    }, []);
     
     return (
-        <div className="atf-preloader">
+        <div className={`atf-preloader ${visible ? 'visible' : 'hidden'}`}>
             <div className="atf-status">
                 <div className="atf-lds-roller">
                     <div></div>
