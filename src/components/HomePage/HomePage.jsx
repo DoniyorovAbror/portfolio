@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./HomePage.module.css";
+// import "./HomePage.module.css";
 import Preloader from "../Preloader/Preloader";
 import Navbar from "../Navbar/Navbar";
 import Main from "../Main/Main";
@@ -13,8 +13,8 @@ import Blog from "../Blog/Blog";
 import Hire from "../Hire/Hire";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import StyleSwitcher from "../StyleSwitcher/StyleSwitcher";
-import "./responsive.css";
+// import StyleSwitcher from "../StyleSwitcher/StyleSwitcher";
+// import "./responsive.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

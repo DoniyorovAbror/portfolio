@@ -8,20 +8,14 @@ import photo_6 from '../../img/portfolio/6.jpg';
 import photo_7 from '../../img/portfolio/7.jpg';
 import photo_8 from '../../img/portfolio/8.jpg';
 import photo_9 from '../../img/portfolio/9.jpg';
-// import $ from 'jquery';
-// import 'isotope-layout';
 
 const Portfolio = () => {
-    // const isotopeRef = useRef();
-
-    // useEffect(() => {
-    //     const $isotope = $(isotopeRef.current).isotope({
-    //         itemSelector: '',
-    //         layoutMode: 'fitRows'
-    //     });
-    //     return () => $isotope('destroy');
-    // }, []);
-    
+    const [filter, setFilter] = useState('All');
+    console.log(document.querySelectorAll('.atf-main-portfolio > .all').length)
+    const filterButton = e => {
+        
+        console.log(e.target);
+    }
     return (
         <section
             id="portfolio"
@@ -79,7 +73,7 @@ const Portfolio = () => {
                                 >
                                     All
                                 </li>
-                                <li className="filter" data-filter=".website">
+                                <li className="filter" data-filter=".website" onClick={filterButton}>
                                     Digital
                                 </li>
                                 <li className="filter" data-filter=".media">

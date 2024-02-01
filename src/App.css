@@ -589,7 +589,7 @@ button, input, textarea:focus {
 	width: 100%;
 	top: 0;
 	/* -webkit-animation: fadeInDown 800ms; */
-	/* animation: fadeInDown 800ms; */
+	animation: fadeInDown 800ms;
 	/* -webkit-backface-visibility: hidden; */
 	border-radius: 0px;
 	background: var(--thm-black);
@@ -1346,7 +1346,7 @@ button, input, textarea:focus {
 	background: var(--thm-color);
 }
 #portfolio .atf-main-portfolio {
-	display: inline-block;
+	/* display: inline-block; */
 	position: relative;
 	width: 100%;
 	transition: all 0.3s ease;
