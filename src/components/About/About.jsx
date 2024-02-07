@@ -170,7 +170,7 @@ const About = () => {
                                         >
                                             <div className="atf-counter">
                                                 <div className="atf-counter-content">
-                                                    <Odometer count={1500} />
+                                                    <Odometer initialValue={1500} />
 
                                                     <h3>Projects Work</h3>
                                                 </div>
@@ -186,7 +186,7 @@ const About = () => {
                                         >
                                             <div className="atf-counter">
                                                 <div className="atf-counter-content">
-                                                    <Odometer count={4500} />
+                                                    <Odometer initialValue={4500} />
 
                                                     <h3>Happy Client</h3>
                                                 </div>
@@ -202,7 +202,7 @@ const About = () => {
                                         >
                                             <div className="atf-counter">
                                                 <div className="atf-counter-content">
-                                                    <Odometer count={5500} />
+                                                    <Odometer initialValue={5500} />
                                                     <h3>Cup Coffee</h3>
                                                 </div>
                                                 <div className="atf-counter-icon">
@@ -217,7 +217,7 @@ const About = () => {
                                         >
                                             <div className="atf-counter">
                                                 <div className="atf-counter-content">
-                                                    <Odometer count={6500} />
+                                                    <Odometer initialValue={6500} />
                                                     <h3>Timely Deliver</h3>
                                                 </div>
                                                 <div className="atf-counter-icon">

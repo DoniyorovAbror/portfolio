@@ -94,7 +94,7 @@ const HomePage = () => {
             {/* Education Section End */}
 
             {/* Service Section Start */}
-            <Service />
+            {/* <Service /> */}
             {/* Service Section End */}
 
             {/* Portfolio Section Start */}
@@ -102,15 +102,15 @@ const HomePage = () => {
             {/* Portfolio Section End */}
 
             {/* Start Pricing Section  */}
-            <Pricing />
+            {/* <Pricing /> */}
             {/* Pricing Section End */}
 
             {/* Start Testimonials Section  */}
-            <Testimonial />
+            {/* <Testimonial /> */}
             {/* Testimonials Section End */}
 
             {/* Start Blog Section  */}
-            <Blog />
+            {/* <Blog /> */}
             {/* Blog Section End */}
 
             {/* Hire Section Start */}

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import photo_1 from '../../img/portfolio/1.jpg';
 import photo_2 from '../../img/portfolio/2.jpg';
 import photo_3 from '../../img/portfolio/3.jpg';
@@ -11,11 +11,15 @@ import photo_9 from '../../img/portfolio/9.jpg';
 
 const Portfolio = () => {
     const [filter, setFilter] = useState('All');
-    console.log(document.querySelectorAll('.atf-main-portfolio > .all').length)
-    const filterButton = e => {
-        
-        console.log(e.target);
-    }
+    // console.log(document.querySelectorAll('.atf-main-portfolio > .all').length)
+    document.querySelectorAll('#atf-portfolio-flters > .filter').forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.add('filter-active')
+            console.log(item.getAttribute('data-filter'))
+
+        });
+    })
+   
     return (
         <section
             id="portfolio"
@@ -73,7 +77,7 @@ const Portfolio = () => {
                                 >
                                     All
                                 </li>
-                                <li className="filter" data-filter=".website" onClick={filterButton}>
+                                <li className="filter" data-filter=".website">
                                     Digital
                                 </li>
                                 <li className="filter" data-filter=".media">

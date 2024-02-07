@@ -75,18 +75,18 @@ const Navbar = () => {
                                         duration={750}
                                         >About</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#service">Service</a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="#portfolio">Portfolio</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#pricing">Pricing</a>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <a href="#blog">Blog</a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="#contact">Contact</a>
                                     </li>
