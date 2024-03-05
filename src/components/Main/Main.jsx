@@ -53,9 +53,9 @@ const Main = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <a href="#hire" className="atf-themes-btn me-4">
+                            {/* <a href="#hire" className="atf-themes-btn me-4">
                                 Hire Me
-                            </a>
+                            </a> */}
                             <a href="#about" className="atf-themes-btn">
                                 Download CV
                             </a>

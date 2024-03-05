@@ -6,11 +6,11 @@ import Main from "../Main/Main";
 import About from "../About/About";
 import Education from "../Education/Education";
 import Portfolio from "../Portfolio/Portfolio";
-import Service from "../Service/Service";
-import Pricing from "../Pricing/Pricing";
-import Testimonial from "../Testimonial/Testimonial";
-import Blog from "../Blog/Blog";
-import Hire from "../Hire/Hire";
+// import Service from "../Service/Service";
+// import Pricing from "../Pricing/Pricing";
+// import Testimonial from "../Testimonial/Testimonial";
+// import Blog from "../Blog/Blog";
+// import Hire from "../Hire/Hire";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 // import StyleSwitcher from "../StyleSwitcher/StyleSwitcher";
@@ -114,7 +114,7 @@ const HomePage = () => {
             {/* Blog Section End */}
 
             {/* Hire Section Start */}
-            <Hire />
+            {/* <Hire /> */}
             {/* Hire Section End */}
 
             {/* Start Contact Section  */}

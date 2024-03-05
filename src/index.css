@@ -1,52 +1,50 @@
 @font-face {
-	font-family: 'fa-brands';
-	src: url('./Fonts/fa-brands-400.woff2') format('woff2');
+	font-family: "fa-brands";
+	src: url("./Fonts/fa-brands-400.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: 'fa-regular';
-	src: url('./Fonts/fa-regular-400.ttf') format('truetype'),
-	url('./Fonts/fa-regular-400.woff2') format('woff2');
+	font-family: "fa-regular";
+	src: url("./Fonts/fa-regular-400.ttf") format("truetype"),
+		url("./Fonts/fa-regular-400.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: 'fa-solid';
-	src: url('./Fonts/fa-solid-900.ttf') format('truetype'),
-	url('./Fonts/fa-solid-900.woff2') format('woff2');
+	font-family: "fa-solid";
+	src: url("./Fonts/fa-solid-900.ttf") format("truetype"),
+		url("./Fonts/fa-solid-900.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: 'v4compatibility';
-	src: url('./Fonts/fa-v4compatibility.ttf') format('truetype'),
-	url('./Fonts/fa-v4compatibility.woff2') format('woff2');
+	font-family: "v4compatibility";
+	src: url("./Fonts/fa-v4compatibility.ttf") format("truetype"),
+		url("./Fonts/fa-v4compatibility.woff2") format("woff2");
 }
 
 @font-face {
-	font-family: 'Quicksand';
+	font-family: "Quicksand";
 	src: 
-	/* url('./Fonts/Quicksand-SemiBold.ttf') format('truetype'); */
-	url('./Fonts/Quicksand-Regular.ttf') format('truetype');
+	/* url('./Fonts/Quicksand-SemiBold.ttf') format('truetype'); */ url("./Fonts/Quicksand-Regular.ttf")
+		format("truetype");
 	font-display: swap;
 }
 
-
-@media only screen and (max-width : 2500px) {
-	.page-wrapper{
-		overflow:hidden;
+@media only screen and (max-width: 2500px) {
+	.page-wrapper {
+		overflow: hidden;
 	}
-	
 }
-@media only screen and (max-width : 992px) {
-	.atf-single-details h2{
-		font-size:30px;
+@media only screen and (max-width: 992px) {
+	.atf-single-details h2 {
+		font-size: 30px;
 	}
-	.atf-home-area .atf_home_img{
+	.atf-home-area .atf_home_img {
 		margin-left: -40px;
 	}
-	.atf-resume-box .atf-icon{
+	.atf-resume-box .atf-icon {
 		left: -53px;
 	}
-	.atf-resume-info{
+	.atf-resume-info {
 		padding: 40px 0px;
 	}
 	.atf-hire-content h3 {
@@ -58,57 +56,55 @@
 		left: -27px;
 		top: 317px;
 	}
-
-	
 }
-@media only screen and (max-width : 991px) {
-	.atf-single-details h2{
-		font-size:25px;
+@media only screen and (max-width: 991px) {
+	.atf-single-details h2 {
+		font-size: 25px;
 	}
-	.atf-home-area .atf_home_img{
+	.atf-home-area .atf_home_img {
 		margin-left: -30px;
 	}
-	.atf-banner-social ul li a{
+	.atf-banner-social ul li a {
 		height: 45px;
 		width: 45px;
 		line-height: 45px;
 		font-size: 20px;
 		margin: 0 10px auto auto;
 	}
-	.atf-about-img{
-		margin-bottom:30px;
+	.atf-about-img {
+		margin-bottom: 30px;
 	}
-	.atf-pricingTable{
-		margin-bottom:30px;
+	.atf-pricingTable {
+		margin-bottom: 30px;
 	}
-	.atf-blog-area .atf-single-blog{
-		margin-bottom:30px;
+	.atf-blog-area .atf-single-blog {
+		margin-bottom: 30px;
 	}
-	.atf-resume-box .atf-icon{
-		left: -31px;
+	.atf-resume-box .atf-icon {
+		left: 250px;
 	}
 	.atf-icon {
-		top: 325px;	
+		top: 325px;
 	}
-	.atf-footer-link{
-		margin-bottom:30px;
+	.atf-footer-link {
+		margin-bottom: 30px;
 	}
 }
 
 @media only screen and (max-width: 767px) {
-	.atf_home_img{
-		display:none;
+	.atf_home_img {
+		display: none;
 	}
 	.atf-home-area .atf_home_img2 img {
-		display:none;
+		display: none;
 	}
-	.navbar-toggler{
-		margin-top:-5px;
+	.navbar-toggler {
+		margin-top: -5px;
 	}
 	.atf-section-title p {
 		width: 100%;
 	}
-	#about .atf-about-content p{
+	#about .atf-about-content p {
 		padding-right: 0px;
 	}
 	.atf-resume-info {
@@ -116,13 +112,13 @@
 	}
 	.atf-icon {
 		top: 592px;
-		width: 804px;		
+		width: 804px;
 	}
-	.atf-resume-box li{
+	.atf-resume-box li {
 		margin: 0px 0 10px;
 	}
 	.atf-resume-box .atf-icon {
-		display:none;
+		display: none;
 	}
 	#portfolio .atf-portfolio-nav .nav {
 		display: block;
@@ -134,42 +130,40 @@
 		padding: 5px 13px;
 		margin: 6px 12px;
 	}
-	#portfolio .atf-main-portfolio{
-		margin-left:1px;
+	#portfolio .atf-main-portfolio {
+		margin-left: 1px;
 	}
-	.atf-post-img .atf-blog-date{
+	.atf-post-img .atf-blog-date {
 		right: 78px;
 	}
-	.atf-blog-date span{
+	.atf-blog-date span {
 		padding-top: 5px;
 	}
-	.atf-map-area{
-		margin-top:30px;
+	.atf-map-area {
+		margin-top: 30px;
 	}
-	.form-message{
-		padding-bottom:30px;
+	.form-message {
+		padding-bottom: 30px;
 	}
-	
-
 }
 
 @media only screen and (max-width: 576px) {
-	.navbar-toggler{
-		margin-top:-5px;
+	.navbar-toggler {
+		margin-top: -5px;
 	}
-	.atf-single-details h2{
-		font-size:20px;
+	.atf-single-details h2 {
+		font-size: 20px;
 	}
-	.nav-fill .nav-item{
-		font-size:16px;
+	.nav-fill .nav-item {
+		font-size: 16px;
 	}
-	.atf-icon{
-		display:none;
+	.atf-icon {
+		display: none;
 	}
-	.atf-resume-info{
-		text-align:left;
+	.atf-resume-info {
+		text-align: left;
 	}
-	.atf-resume-box .atf-resume-icon{
+	.atf-resume-box .atf-resume-icon {
 		width: 35px;
 		height: 35px;
 		left: 0px;
@@ -184,46 +178,44 @@
 		display: inline-block;
 		padding: 5px 13px;
 	}
-	#portfolio .atf-main-portfolio{
-		margin-left:1px;
+	#portfolio .atf-main-portfolio {
+		margin-left: 1px;
 	}
-	.atf-testimonial-item{
-		    padding: 0px 0px 50px 0px;
+	.atf-testimonial-item {
+		padding: 0px 0px 50px 0px;
 	}
-	.atf-blog-area .atf-single-blog img{
-		width:100%;
+	.atf-blog-area .atf-single-blog img {
+		width: 100%;
 	}
-	.atf-blog-date span{
+	.atf-blog-date span {
 		padding-top: 5px;
 	}
-	.atf-post-img .atf-blog-date{
+	.atf-post-img .atf-blog-date {
 		right: 10px;
 	}
 	.atf-hire-content h3 {
 		font-size: 20px;
 	}
-
 }
 
-
-@media screen and (max-width: 320px) and (min-width: 0px){
-	.navbar-toggler{
-		margin-top:-5px;
+@media screen and (max-width: 320px) and (min-width: 0px) {
+	.navbar-toggler {
+		margin-top: -5px;
 	}
-	.atf-single-details h2{
-		font-size:18px;
+	.atf-single-details h2 {
+		font-size: 18px;
 	}
-	.atf-banner-social ul li a{
+	.atf-banner-social ul li a {
 		margin: 0 5px auto auto;
 	}
 	.nav-fill .nav-item {
 		font-size: 13px;
 	}
-	#home .atf-themes-btn{
-		margin-bottom:15px;
+	#home .atf-themes-btn {
+		margin-bottom: 15px;
 	}
-	.atf-section-title h2{
-		font-size:30px;
+	.atf-section-title h2 {
+		font-size: 30px;
 	}
 	#portfolio .portfolio-list .nav li {
 		float: none;
@@ -233,6 +225,4 @@
 	.atf-hire-content h3 {
 		font-size: 20px;
 	}
-
-
 }
