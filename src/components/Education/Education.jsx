@@ -283,7 +283,7 @@ const Education = () => {
 																<WorkHistoryIcon />
 															</div>
 															<h3>Direktor</h3>
-															{/* <p className="">
+															<p className="">
 																Lorem ipsum
 																dolor sit amet,
 																consectetuer
@@ -293,7 +293,7 @@ const Education = () => {
 																tincidunt ut
 																laoreet diam
 																nonummy.
-															</p> */}
+															</p>
 														</li>
 													</ul>
 												</div>

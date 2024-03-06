@@ -515,7 +515,7 @@ textarea:focus {
 	width: 90px;
 	height: 3px;
 	background-color: var(--thm-black);
-	margin: 0 auto;
+	margin: 40px auto;
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -1189,7 +1189,7 @@ textarea:focus {
  * Education Style
  *************************************/
 #education {
-	padding-top: 0px;
+	padding-top: 90px;
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
@@ -1809,6 +1809,10 @@ textarea:focus {
 }
 .atf-contact-btn .atf-themes-btn {
 	color: var(--thm-black);
+}
+
+#contact {
+	margin-bottom: 170px;
 }
 /*
 * ----------------------------------------------------------------------------------------

@@ -26,7 +26,7 @@ const Contact = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             ></div>
-                            <p
+                            {/* <p
                                 className=""
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
@@ -34,7 +34,7 @@ const Contact = () => {
                                 Laoreet elementum Sed congue nisl dolorSed
                                 congue nisl dolor, id dapibus leo elementum
                                 posuere. Ut aliquam metus quis.
-                            </p>
+                            </p> */}
                             <h3
                                 className=""
                                 data-aos="fade-up"
@@ -45,10 +45,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-4">
                     <div className="col-lg-12 col-md-12">
                         <div className="row atf-contact-info text-center">
-                            <div
+                            {/* <div
                                 className="col-lg-4 col-md-4 col-12"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
@@ -61,9 +61,9 @@ const Contact = () => {
                                         University.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div
-                                className="col-lg-4 col-md-4 col-12"
+                                className="col-lg-6 col-md-6 col-12"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -74,7 +74,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div
-                                className="col-lg-4 col-md-4 col-12"
+                                className="col-lg-6 col-md-6 col-12"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -86,7 +86,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-6">
+                    {/* <div className="col-md-6 col-lg-6">
                         <form
                             className="form atf-contact-form"
                             id="contact-form"
@@ -164,23 +164,23 @@ const Contact = () => {
                         </form>
                         <br />
                         <p className="form-message"></p>
-                    </div>
-                    <div
+                    </div> */}
+                    {/* <div
                         className="col-md-6 col-lg-6"
                         data-aos="fade-left"
                         data-aos-duration="1000"
                     >
-                        {/* <!-- Google Map start--> */}
+                        
                         <div id="atf-map-area">
                             <iframe
-                                // style="border:0"
+                        
                                 title="Contact"
                                 src="https://maps.google.com/maps?width=100%25&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                                 allowFullScreen
                             ></iframe>
                         </div>
-                        {/* <!-- Google Map end --> */}
-                    </div>
+                        
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="atf-footer-area">
             <div className="container">
-                <div className="atf-footer-top">
+                {/* <div className="atf-footer-top">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-12 atf-footer-link">
                             <div
@@ -121,7 +121,7 @@ const Footer = () => {
                                 >
                                     Subscribe
                                 </button>
-                                {/* <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES --> */}
+                                
                                 <br />
                                 <label
                                     className="atf-subscription-label"
@@ -130,7 +130,7 @@ const Footer = () => {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div
                     className="atf-footer-boottom text-center"
                     data-aos="fade-zoom"

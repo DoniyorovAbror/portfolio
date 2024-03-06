@@ -38,7 +38,7 @@ const HomePage = () => {
     };
     useEffect(() => {
         AOS.init({
-            offset: 120,
+            offset: 90,
 
             delay: 0,
 

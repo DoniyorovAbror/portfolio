@@ -146,11 +146,11 @@ const Navbar = () => {
 									<ul>
 										<li>
 											<Link
-												activeClass="active"
+												// activeClass="active"
 												to="home"
-												spy={true}
-												offset={0}
-												duration={750}
+												// spy={true}
+												// offset={0}
+												// duration={750}
                                                 onClick={handleMobileMenu}
 											>
 												Home
@@ -159,12 +159,12 @@ const Navbar = () => {
 
 										<li>
 											<Link
-												activeClass="active"
+												// activeClass="active"
 												to="about"
-												spy={true}
-												smooth={true}
-												offset={0}
-												duration={750}
+												// spy={true}
+												// smooth={true}
+												// offset={0}
+												// duration={750}
                                                 onClick={handleMobileMenu}
 											>
 												About
@@ -176,12 +176,12 @@ const Navbar = () => {
 
 										<li>
 											<Link
-												activeClass="active"
+												// activeClass="active"
 												to="education"
-												spy={true}
-												smooth={true}
-												offset={true}
-												duration={750}
+												// spy={true}
+												// smooth={true}
+												// offset={true}
+												// duration={750}
                                                 onClick={handleMobileMenu}
 											>
 												Education
@@ -189,12 +189,12 @@ const Navbar = () => {
 										</li>
 										<li>
 											<Link
-												activeClass="active"
+												// activeClass="active"
 												to="portfolio"
-												spy={true}
-												smooth={true}
-												offset={0}
-												duration={750}
+												// spy={true}
+												// smooth={true}
+												// offset={0}
+												// duration={750}
                                                 onClick={handleMobileMenu}
 											>
 												Portfolio
@@ -208,12 +208,12 @@ const Navbar = () => {
                                     </li> */}
 										<li>
 											<Link
-												activeClass="active"
+												// activeClass="active"
 												to="contact"
-												spy={true}
-												smooth={true}
-												offset={0}
-												duration={750}
+												// spy={true}
+												// smooth={true}
+												// offset={0}
+												// duration={750}
                                                 onClick={handleMobileMenu}
 											>
 												Contact
