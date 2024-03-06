@@ -44,7 +44,7 @@ const HomePage = () => {
 
             easing: "ease",
 
-            duration: 5000,
+            duration: 3000,
 
             disable: false, // Condition when AOS should be disabled. e.g. 'mobile'
 

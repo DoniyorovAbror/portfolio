@@ -1250,9 +1250,14 @@ textarea:focus {
 	color: var(--thm-color);
 	width: 35px;
 	height: 35px;
-	line-height: 35px;
-	margin: 0 0 20px;
+	line-height: 10px;
+	margin: 0 0 30px;
 }
+
+.atf-single-icon svg {
+	font-size: 60px;
+}
+
 .atf-icon .atf-resume-icon {
 	content: "";
 	width: 15px;
@@ -1937,6 +1942,7 @@ textarea:focus {
 		text-align: right;
 		cursor: pointer;
 		vertical-align: middle;
+		position: relative;
 	}
 	.site-logo {
 		margin-bottom: 16px;

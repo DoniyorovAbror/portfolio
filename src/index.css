@@ -89,6 +89,37 @@
 	.atf-footer-link {
 		margin-bottom: 30px;
 	}
+	.mobile_menu_items {
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.5s;
+		background-color: var(--thm-gray);
+		height: 0;
+		right: 0;
+		top: 0;
+		width: 300px;
+		height: fit-content;
+		text-align: left;
+		transform: translatey(-50px);
+		font-size: 18px;
+		padding: 20px 30px;
+	}
+
+	.mobile_menu_items.mobile_menu_open {
+		/* display: block; */
+		visibility: visible;
+		/* transition: all 0.5s; */
+		top: 40px;
+		opacity: 1;
+		transform: translatey(0);
+	}
+
+	.mobile_menu_items.mobile_menu_open ul {
+		margin: 0;
+		padding: 0;
+		line-height: 35px;
+	}
 }
 
 @media only screen and (max-width: 767px) {

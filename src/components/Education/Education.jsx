@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 
 const Education = () => {
 	const [activeTab, setActiveTab] = useState("nav-interview");
@@ -133,10 +135,12 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															North University
+															The Tashkent
+															Institue of Textile
+															ad Light Industry
 														</h3>
 														<h6 className="atf-time">
-															2008-2012{" "}
+															2011-2015
 														</h6>
 													</div>
 												</div>
@@ -150,21 +154,14 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fa fa-graduation-cap"></i>
+																<SchoolIcon />
 															</div>
 															<h3>
-																Master Degree{" "}
+																Bachelor Degree
 															</h3>
 															<p className="">
-																Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy.
+																Chemical
+																technology
 															</p>
 														</li>
 													</ul>
@@ -174,10 +171,10 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															North University
+															SkillFactory
 														</h3>
 														<h6 className="atf-time">
-															2005-2010{" "}
+															2022-2023
 														</h6>
 													</div>
 												</div>
@@ -190,28 +187,20 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fa fa-graduation-cap"></i>
+																<SchoolIcon />
 															</div>
-															<h3>
-																B A Honours{" "}
-															</h3>
+															<h3>Sertificate</h3>
 															<p className="">
-																Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy.
+																Python Full
+																Stack Web
+																Developer
 															</p>
 														</li>
 													</ul>
 												</div>
 											</div>
 
-											<div className="row">
+											{/* <div className="row">
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
@@ -250,7 +239,7 @@ const Education = () => {
 														</li>
 													</ul>
 												</div>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>
@@ -274,7 +263,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-                                                        Proekt Pro MChJ
+															Proekt Pro MChJ
 														</h3>
 														<h6 className="atf-time">
 															2019-Present
@@ -291,11 +280,9 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fab fa-wordpress"></i>
+																<WorkHistoryIcon />
 															</div>
-															<h3>
-																Direktor
-															</h3>
+															<h3>Direktor</h3>
 															{/* <p className="">
 																Lorem ipsum
 																dolor sit amet,
@@ -315,7 +302,8 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-                                                        Me’mor-Arxitektura-Servis MChJ
+															Me’mor-Arxitektura-Servis
+															MChJ
 														</h3>
 														<h6 className="atf-time">
 															2018-2019
@@ -331,7 +319,7 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fab fa-twitter"></i>
+																<WorkHistoryIcon />
 															</div>
 															<h3>
 																Bosh muhandis
@@ -356,7 +344,8 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-                                                        Me’mor-Arxitektura-Servis MChJ
+															Me’mor-Arxitektura-Servis
+															MChJ
 														</h3>
 														<h6 className="atf-time">
 															2017-2018
@@ -372,10 +361,12 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fab fa-google"></i>
+																<WorkHistoryIcon />
 															</div>
 															<h3>
-                                                            Shamollatish va Isitish bo’limi muhandisi
+																Shamollatish va
+																Isitish bo’limi
+																muhandisi
 															</h3>
 															<p className="">
 																{/* Lorem ipsum
@@ -396,7 +387,8 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-                                                        Termiz-Ta’mir-Loyiha MChJ 
+															Termiz-Ta’mir-Loyiha
+															MChJ
 														</h3>
 														<h6 className="atf-time">
 															2016-2017
@@ -412,10 +404,10 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fab fa-google"></i>
+																<WorkHistoryIcon />
 															</div>
 															<h3>
-                                                            Konstruktor-muhandis
+																Konstruktor-muhandis
 															</h3>
 															<p className="">
 																{/* Lorem ipsum
@@ -436,7 +428,8 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-                                                        Termiz-Ta’mir-Loyiha MChJ 
+															Termiz-Ta’mir-Loyiha
+															MChJ
 														</h3>
 														<h6 className="atf-time">
 															2015-2016
@@ -452,10 +445,11 @@ const Education = () => {
 															data-aos-duration="1000"
 														>
 															<div className="atf-single-icon">
-																<i className="fab fa-google"></i>
+																<WorkHistoryIcon />
 															</div>
 															<h3>
-                                                            Ish o’rganuvchi konstruktor
+																Ish o’rganuvchi
+																konstruktor
 															</h3>
 															<p className="">
 																{/* Lorem ipsum
