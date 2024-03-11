@@ -60,6 +60,13 @@ const Navbar = () => {
 
 					<div className="col-lg-10 col-md-9 col-8 ">
 						<div className="header_right">
+							<div className="language">
+								<ul>
+									<li>ru</li>
+									<li>uz</li>
+									<li>en</li>
+								</ul>
+							</div>
 							<nav id="main-menu" className="ms-auto">
 								<ul>
 									<li>
@@ -68,7 +75,7 @@ const Navbar = () => {
 											to="home"
 											spy={true}
 											offset={0}
-											duration={750}
+											duration={550}
 										>
 											Home
 										</Link>
@@ -81,7 +88,7 @@ const Navbar = () => {
 											spy={true}
 											smooth={true}
 											offset={0}
-											duration={750}
+											duration={550}
 										>
 											About
 										</Link>
@@ -95,8 +102,8 @@ const Navbar = () => {
 											to="education"
 											spy={true}
 											smooth={true}
-											offset={true}
-											duration={750}
+											offset={0}
+											duration={550}
 										>
 											Education
 										</Link>
@@ -107,8 +114,8 @@ const Navbar = () => {
 											to="portfolio"
 											spy={true}
 											smooth={true}
-											offset={true}
-											duration={750}
+											offset={0}
+											duration={550}
 										>
 											Portfolio
 										</Link>
@@ -125,8 +132,8 @@ const Navbar = () => {
 											to="contact"
 											spy={true}
 											smooth={true}
-											offset={true}
-											duration={750}
+											offset={0}
+											duration={550}
 										>
 											Contact
 										</Link>
@@ -151,7 +158,7 @@ const Navbar = () => {
 												// spy={true}
 												// offset={0}
 												// duration={750}
-                                                onClick={handleMobileMenu}
+												onClick={handleMobileMenu}
 											>
 												Home
 											</Link>
@@ -165,7 +172,7 @@ const Navbar = () => {
 												// smooth={true}
 												// offset={0}
 												// duration={750}
-                                                onClick={handleMobileMenu}
+												onClick={handleMobileMenu}
 											>
 												About
 											</Link>
@@ -182,7 +189,7 @@ const Navbar = () => {
 												// smooth={true}
 												// offset={true}
 												// duration={750}
-                                                onClick={handleMobileMenu}
+												onClick={handleMobileMenu}
 											>
 												Education
 											</Link>
@@ -195,7 +202,7 @@ const Navbar = () => {
 												// smooth={true}
 												// offset={0}
 												// duration={750}
-                                                onClick={handleMobileMenu}
+												onClick={handleMobileMenu}
 											>
 												Portfolio
 											</Link>
@@ -214,7 +221,7 @@ const Navbar = () => {
 												// smooth={true}
 												// offset={0}
 												// duration={750}
-                                                onClick={handleMobileMenu}
+												onClick={handleMobileMenu}
 											>
 												Contact
 											</Link>

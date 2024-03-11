@@ -593,7 +593,7 @@ textarea:focus {
 .site-logo img {
 	width: 147px;
 	height: auto;
-	margin-top: 10px;
+	margin-top: 16px;
 }
 .bg-faded {
 	background-color: transparent;
@@ -942,6 +942,36 @@ textarea:focus {
 	transform: rotate(-135deg);
 	opacity: 0.9;
 }
+
+#navigation .header_right #main-menu ul li a.active {
+	color: var(--thm-color);
+}
+
+#navigation .header_right .language {
+	margin-left: 20px;
+}
+
+#navigation .header_right .language > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#navigation .header_right .language > ul li {
+	color: var(--thm-ase);
+	font-family: var(--thm-font);
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#navigation .header_right .language > ul li:hover {
+	cursor: pointer;
+	color: var(--thm-color);
+}
+
+#navigation .header_right .language > ul li.current {
+	color: var(--thm-color);
+}
+
 /**************************************
  * 03.Home Style
  *************************************/
