@@ -81,7 +81,7 @@ const Main = () => {
                                         <FontAwesomeIcon icon={faLinkedin} />
                                     </a>
                                 </li>
-                                <li
+                                {/* <li
                                     className="twitter"
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
@@ -89,8 +89,8 @@ const Main = () => {
                                     <a title="Twitter" href="#">
                                         <FontAwesomeIcon icon={faTwitter} />
                                     </a>
-                                </li>
-                                <li
+                                </li> */}
+                                {/* <li
                                     className="instagram"
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
@@ -98,7 +98,7 @@ const Main = () => {
                                     <a title="Instagram" href="#">
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
-                                </li>
+                                </li> */}
                                 <li
                                     className="whatsapp"
                                     data-aos="fade-in"
