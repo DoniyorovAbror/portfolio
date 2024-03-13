@@ -29,14 +29,14 @@ const Education = () => {
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							>
-								Education & Experience
+								Ta'lim & Tajriba
 							</h2>
 							<div
 								className="atf-heading-seperator mt-3"
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							></div>
-							<p
+							{/* <p
 								className=""
 								data-aos="fade-up"
 								data-aos-duration="3000"
@@ -44,14 +44,14 @@ const Education = () => {
 								Laoreet elementum Sed congue nisl dolorSed
 								congue nisl dolor, id dapibus leo elementum
 								posuere. Ut aliquam metus quis.
-							</p>
-							<h3
+							</p> */}
+							{/* <h3
 								className=""
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							>
 								You can see my Education{" "}
-							</h3>
+							</h3> */}
 						</div>
 					</div>
 				</div>
@@ -78,7 +78,7 @@ const Education = () => {
 									role="tab"
 									aria-selected="false"
 								>
-									Education
+									Ta'lim
 								</a>
 								<a
 									className={`nav-item nav-link ${
@@ -94,9 +94,9 @@ const Education = () => {
 									aria-controls="nav-about"
 									aria-selected="true"
 								>
-									Experience
+									Tajriba
 								</a>
-								<a
+								{/* <a
 									className={`nav-item nav-link ${
 										activeTab === "nav-award"
 											? "active"
@@ -110,7 +110,7 @@ const Education = () => {
 									aria-selected="false"
 								>
 									Award
-								</a>
+								</a> */}
 							</div>
 						</nav>
 						<div
@@ -135,9 +135,10 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															The Tashkent
-															Institue of Textile
-															ad Light Industry
+															Toshkent
+															toʻqimachilik va
+															yengil sanoat
+															instituti
 														</h3>
 														<h6 className="atf-time">
 															2011-2015
@@ -157,11 +158,10 @@ const Education = () => {
 																<SchoolIcon />
 															</div>
 															<h3>
-																Bachelor Degree
+																Bakalavr darajasi
 															</h3>
 															<p className="">
-																Chemical
-																technology
+																Kimyoviy texnologiya
 															</p>
 														</li>
 													</ul>
@@ -189,7 +189,7 @@ const Education = () => {
 															<div className="atf-single-icon">
 																<SchoolIcon />
 															</div>
-															<h3>Sertificate</h3>
+															<h3>Sertifikat</h3>
 															<p className="">
 																Python Full
 																Stack Web
@@ -266,7 +266,7 @@ const Education = () => {
 															Proekt Pro MChJ
 														</h3>
 														<h6 className="atf-time">
-															2019-Present
+															2019 -
 														</h6>
 													</div>
 												</div>

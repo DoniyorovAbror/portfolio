@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import photo from '../../img/1.jpeg';
 import Typed from 'typed.js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faLinkedin, faTwitter, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 const Main = () => {
     const el = useRef(null);
@@ -35,7 +35,7 @@ const Main = () => {
                         data-aos="fade-right"
                         data-aos-duration="1000"
                     >
-                        <h5>Hello, I'm</h5>
+                        <h5>Salom, Men</h5>
                         <h2 className="mb-0 d-block d-lg-block">
                             Abror <span className="theme_gray"></span>
                             <span ref={el} className="typed-word"></span>{" "}
@@ -48,18 +48,18 @@ const Main = () => {
                             Modular, Scalable and Functional Code.
                         </p>
                         {/* <!-- Main-btn --> */}
-                        <div
+                        {/* <div
                             className="atf-main-btn"
                             data-aos="fade-up"
                             data-aos-duration="1000"
-                        >
+                        > */}
                             {/* <a href="#hire" className="atf-themes-btn me-4">
                                 Hire Me
                             </a> */}
-                            <a href="#about" className="atf-themes-btn">
+                            {/* <a href="#about" className="atf-themes-btn">
                                 Download CV
                             </a>
-                        </div>
+                        </div> */}
                         {/* <!-- Start Social Share --> */}
                         <div className="atf-banner-social">
                             <ul className="atf-banner-icon  list-unstyled">
@@ -68,7 +68,7 @@ const Main = () => {
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
                                 >
-                                    <a title="Facebook" href="#">
+                                    <a title="Facebook" href="https://www.facebook.com/profile.php?id=100081628271471" target="_blank">
                                         <FontAwesomeIcon icon={faFacebook} />
                                     </a>
                                 </li>
@@ -77,35 +77,17 @@ const Main = () => {
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
                                 >
-                                    <a title="Linkedin" href="#">
+                                    <a title="Linkedin" href="https://www.linkedin.com/in/abror-doniyorov-3b939123b/" target="_blank">
                                         <FontAwesomeIcon icon={faLinkedin} />
                                     </a>
                                 </li>
-                                {/* <li
-                                    className="twitter"
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                >
-                                    <a title="Twitter" href="#">
-                                        <FontAwesomeIcon icon={faTwitter} />
-                                    </a>
-                                </li> */}
-                                {/* <li
-                                    className="instagram"
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                >
-                                    <a title="Instagram" href="#">
-                                        <FontAwesomeIcon icon={faInstagram} />
-                                    </a>
-                                </li> */}
                                 <li
-                                    className="whatsapp"
+                                    className="telegram"
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
                                 >
-                                    <a title="Whatsapp" href="#">
-                                        <FontAwesomeIcon icon={faWhatsapp} />
+                                    <a title="Telegram" href="https://t.me/abror_doniyorov88" target="_blank">
+                                        <FontAwesomeIcon icon={faTelegram} />
                                     </a>
                                 </li>
                             </ul>

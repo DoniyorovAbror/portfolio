@@ -42,7 +42,7 @@
 		margin-left: -40px;
 	}
 	.atf-resume-box .atf-icon {
-		left: -53px;
+		left: 208px;
 	}
 	.atf-resume-info {
 		padding: 40px 0px;
@@ -50,12 +50,12 @@
 	.atf-hire-content h3 {
 		font-size: 33px;
 	}
-	.atf-icon {
+	/* .atf-icon {
 		width: 530px;
 		height: 2px;
 		left: -27px;
 		top: 317px;
-	}
+	} */
 }
 @media only screen and (max-width: 991px) {
 	.atf-single-details h2 {
@@ -81,7 +81,7 @@
 		margin-bottom: 30px;
 	}
 	.atf-resume-box .atf-icon {
-		left: 250px;
+		left: 230px;
 	}
 	.atf-icon {
 		top: 325px;

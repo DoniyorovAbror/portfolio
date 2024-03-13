@@ -86,7 +86,7 @@ const HomePage = () => {
             {/* Main Home Ends  */}
 
             {/* START ABOUT */}
-            <About />
+            {/* <About /> */}
             {/* END ABOUT */}
 
             {/* Education Section Start */}

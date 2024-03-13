@@ -1312,7 +1312,7 @@ textarea:focus {
 	width: 2px;
 	height: 90%;
 	position: absolute;
-	left: 260px;
+	left: 248px;
 	/* transform: rotate(90deg); */
 	color: var(--thm-black);
 	background: var(--thm-black);
@@ -1950,10 +1950,11 @@ textarea:focus {
 }
 @media only screen and (max-width: 1200px) {
 	.atf-icon {
-		left: 225px;
+		left: 206px;
 	}
 }
 @media only screen and (max-width: 991px) {
+
 	.slicknav_nav {
 		width: 300px;
 		float: right;

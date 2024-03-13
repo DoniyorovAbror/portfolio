@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import wlogo from "../../img/logo-white.png";
 import blogo from "../../img/logo-black.png";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
@@ -60,13 +60,13 @@ const Navbar = () => {
 
 					<div className="col-lg-10 col-md-9 col-8 ">
 						<div className="header_right">
-							<div className="language">
+							{/* <div className="language">
 								<ul>
 									<li>ru</li>
 									<li>uz</li>
 									<li>en</li>
 								</ul>
-							</div>
+							</div> */}
 							<nav id="main-menu" className="ms-auto">
 								<ul>
 									<li>
@@ -77,11 +77,14 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Home
+
+											<FontAwesomeIcon icon={faHouse} /> 
+
+											
 										</Link>
 									</li>
 
-									<li>
+									{/* <li>
 										<Link
 											activeClass="active"
 											to="about"
@@ -90,9 +93,9 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											About
+											Men
 										</Link>
-									</li>
+									</li> */}
 									{/* <li>
                                         <a href="#service">Service</a>
                                     </li> */}
@@ -105,7 +108,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Education
+											Ta'lim
 										</Link>
 									</li>
 									<li>
@@ -135,7 +138,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Contact
+											Bog'lanish
 										</Link>
 									</li>
 								</ul>
@@ -160,11 +163,11 @@ const Navbar = () => {
 												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												Home
+												<FontAwesomeIcon icon={faHouse}/>
 											</Link>
 										</li>
 
-										<li>
+										{/* <li>
 											<Link
 												// activeClass="active"
 												to="about"
@@ -174,9 +177,9 @@ const Navbar = () => {
 												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												About
+												Men
 											</Link>
-										</li>
+										</li> */}
 										{/* <li>
                                         <a href="#service">Service</a>
                                     </li> */}
@@ -191,39 +194,24 @@ const Navbar = () => {
 												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												Education
+												Ta'lim
 											</Link>
 										</li>
 										<li>
 											<Link
-												// activeClass="active"
 												to="portfolio"
-												// spy={true}
-												// smooth={true}
-												// offset={0}
-												// duration={750}
 												onClick={handleMobileMenu}
 											>
 												Portfolio
 											</Link>
 										</li>
-										{/* <li>
-                                        <a href="#pricing">Pricing</a>
-                                    </li> */}
-										{/* <li>
-                                        <a href="#blog">Blog</a>
-                                    </li> */}
+				
 										<li>
 											<Link
-												// activeClass="active"
 												to="contact"
-												// spy={true}
-												// smooth={true}
-												// offset={0}
-												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												Contact
+												Bog'lanish
 											</Link>
 										</li>
 									</ul>
