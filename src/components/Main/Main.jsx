@@ -1,113 +1,132 @@
 import React, { useEffect, useRef } from "react";
-import photo from '../../img/1.jpeg';
-import Typed from 'typed.js';
+import photo from "../../img/1.jpeg";
+import Typed from "typed.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import {
+	faFacebook,
+	faLinkedin,
+	faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Main = () => {
-    const el = useRef(null);
+	const el = useRef(null);
 
-    useEffect(() => {
-        const typed = new Typed(el.current, {
-            strings: ["Ui/Ux Designer", "Web Developer.", "Web Designer"],
-            typeSpeed: 40,
-            backSpeed: 40,
-            backDelay: 2000,
-            startDelay: 1500,
-            loop: true,
-            showCursor: true
-        });
+	useEffect(() => {
+		const typed = new Typed(el.current, {
+			strings: [
+				"Kimyoviy texnolog",
+				"Loyiha dizayneri",
+				"Loyiha muhandisi",
+			],
+			typeSpeed: 40,
+			backSpeed: 40,
+			backDelay: 2000,
+			startDelay: 1500,
+			loop: true,
+			showCursor: true,
+		});
 
-        return () => {
-            typed.destroy();
-        };
-    }, []);
-  
-    return (
-        <section
-            id="home"
-            className="atf-header-area atf-home-area atf-align-items-details"
-        >
-            <div className="container">
-                <div className="row atf-content-details align-items-center">
-                    <div
-                        className="col-md-7 atf-single-details text-start"
-                        data-aos="fade-right"
-                        data-aos-duration="1000"
-                    >
-                        <h5>Salom, Men</h5>
-                        <h2 className="mb-0 d-block d-lg-block">
-                            Abror <span className="theme_gray"></span>
-                            <span ref={el} className="typed-word"></span>{" "}
-                        </h2>
-                        <p className="">
-                            I'm a expert web design and Web development, I'm a
-                            Front End Developer. I have a Passion for Creating
-                            Clean, Beautiful, Interactive, Minimalistic,
-                            Responsive and User Friendly UI, Developed by
-                            Modular, Scalable and Functional Code.
-                        </p>
-                        {/* <!-- Main-btn --> */}
-                        {/* <div
+		return () => {
+			typed.destroy();
+		};
+	}, []);
+
+	return (
+		<section
+			id="home"
+			className="atf-header-area atf-home-area atf-align-items-details"
+		>
+			<div className="container">
+				<div className="row atf-content-details align-items-center">
+					<div
+						className="col-md-7 atf-single-details text-start"
+						data-aos="fade-right"
+						data-aos-duration="1000"
+					>
+						<h5>Salom, Men</h5>
+						<h2 className="mb-0 d-block d-lg-block">
+							Abror <span className="theme_gray"></span>
+							<span ref={el} className="typed-word"></span>{" "}
+						</h2>
+						<p className="">
+							Men uyushgan kimyo muhandisi, arxitektura va
+							qurilish dizayn muhandisi hamda yaxshi IT
+							ko'nikmalariga egaman. Menda jamoaviy ishlash va
+							muammolar va nizolarni professional tarzda hal
+							qilish qobiliyati bor. Tillarni o'rganish va juda
+							qiziquvchan madaniy xilma-xillikni kashf qilish.
+							Menda loyihalarni ishlab chiqish va nazorat qilishda
+							ko'p yillik tajriba bor.
+						</p>
+						{/* <!-- Main-btn --> */}
+						{/* <div
                             className="atf-main-btn"
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         > */}
-                            {/* <a href="#hire" className="atf-themes-btn me-4">
+						{/* <a href="#hire" className="atf-themes-btn me-4">
                                 Hire Me
                             </a> */}
-                            {/* <a href="#about" className="atf-themes-btn">
+						{/* <a href="#about" className="atf-themes-btn">
                                 Download CV
                             </a>
                         </div> */}
-                        {/* <!-- Start Social Share --> */}
-                        <div className="atf-banner-social">
-                            <ul className="atf-banner-icon  list-unstyled">
-                                <li
-                                    className="facebook"
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                >
-                                    <a title="Facebook" href="https://www.facebook.com/profile.php?id=100081628271471" target="_blank">
-                                        <FontAwesomeIcon icon={faFacebook} />
-                                    </a>
-                                </li>
-                                <li
-                                    className="linkedin"
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                >
-                                    <a title="Linkedin" href="https://www.linkedin.com/in/abror-doniyorov-3b939123b/" target="_blank">
-                                        <FontAwesomeIcon icon={faLinkedin} />
-                                    </a>
-                                </li>
-                                <li
-                                    className="telegram"
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                >
-                                    <a title="Telegram" href="https://t.me/abror_doniyorov88" target="_blank">
-                                        <FontAwesomeIcon icon={faTelegram} />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div
-                        className="col-md-5 atf_home_img2 order-2 order-md-1 text-center"
-                        data-aos="fade-left"
-                        data-aos-duration="1000"
-                    >
-                        <img
-                            src={photo}
-                            alt="portfolio"
-                            className="card-s"
-                        />
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+						{/* <!-- Start Social Share --> */}
+						<div className="atf-banner-social">
+							<ul className="atf-banner-icon  list-unstyled">
+								<li
+									className="facebook"
+									data-aos="fade-in"
+									data-aos-duration="1000"
+								>
+									<a
+										title="Facebook"
+										href="https://www.facebook.com/profile.php?id=100081628271471"
+										target="_blank"
+									>
+										<FontAwesomeIcon icon={faFacebook} />
+									</a>
+								</li>
+								<li
+									className="linkedin"
+									data-aos="fade-in"
+									data-aos-duration="1000"
+								>
+									<a
+										title="Linkedin"
+										href="https://www.linkedin.com/in/abror-doniyorov-3b939123b/"
+										target="_blank"
+									>
+										<FontAwesomeIcon icon={faLinkedin} />
+									</a>
+								</li>
+								<li
+									className="telegram"
+									data-aos="fade-in"
+									data-aos-duration="1000"
+								>
+									<a
+										title="Telegram"
+										href="https://t.me/abror_doniyorov88"
+										target="_blank"
+									>
+										<FontAwesomeIcon icon={faTelegram} />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div
+						className="col-md-5 atf_home_img2 order-2 order-md-1 text-center"
+						data-aos="fade-left"
+						data-aos-duration="1000"
+					>
+						<img src={photo} alt="portfolio" className="card-s" />
+					</div>
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default Main;

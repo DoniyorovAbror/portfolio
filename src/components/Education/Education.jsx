@@ -22,7 +22,7 @@ const Education = () => {
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							>
-								25+ Years Experience
+								8+ yil ish tajriba
 							</h5>
 							<h2
 								className=""
@@ -158,10 +158,12 @@ const Education = () => {
 																<SchoolIcon />
 															</div>
 															<h3>
-																Bakalavr darajasi
+																Bakalavr
+																darajasi
 															</h3>
 															<p className="">
-																Kimyoviy texnologiya
+																Kimyoviy
+																texnologiya
 															</p>
 														</li>
 													</ul>
@@ -284,15 +286,28 @@ const Education = () => {
 															</div>
 															<h3>Direktor</h3>
 															<p className="">
-																Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy.
+																To’g’ridan-to’g’ri
+																byurtmachilar
+																bilan
+																muzokoralar olib
+																borish,
+																shartnomalar
+																tuzish va
+																hodimlarga
+																ishlarni
+																taqsimlash,
+																loyihalarni o’z
+																vaqtida sifatli
+																bajarishni
+																nazorat qilish,
+																qurilish
+																obektlarini
+																nazorat qilish,
+																kamchiliklarni
+																o’z vaqtida
+																bartataf
+																etishlardan
+																iborat
 															</p>
 														</li>
 													</ul>
@@ -325,15 +340,15 @@ const Education = () => {
 																Bosh muhandis
 															</h3>
 															<p className="">
-																{/* Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy. */}
+																Loyiha smeta
+																hujjatlarini
+																nazorat qilish,
+																hodimlarga
+																ishlarni
+																taqsimlash va
+																kerakli
+																echimlarni
+																berish
 															</p>
 														</li>
 													</ul>
@@ -369,15 +384,24 @@ const Education = () => {
 																muhandisi
 															</h3>
 															<p className="">
-																{/* Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy. */}
+																Arxitektor
+																ishlab chiqgan
+																va byurtmachi
+																tomonidan
+																tasdiqlangan
+																devor rejasini
+																o’rganib
+																amaldagi meyoriy
+																qoidar asosida
+																va obektning
+																joylashgan joyi,
+																quvvati, turidan
+																kelib chiqib
+																isitish va
+																shamollatish,
+																sovutish
+																loyihalarini
+																bajarish.
 															</p>
 														</li>
 													</ul>
@@ -410,15 +434,20 @@ const Education = () => {
 																Konstruktor-muhandis
 															</h3>
 															<p className="">
-																{/* Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy. */}
+																Arxitektor
+																tomonidan ishlab
+																chiqilgan va
+																byurtmachi
+																tominidan
+																tasdiqlangan
+																devor rejasi
+																bo’yicha to’liq
+																konstruktiv
+																yechimlarini
+																loyihalash, yani
+																yer ishlaridan
+																tortib bino
+																tomigacha.
 															</p>
 														</li>
 													</ul>
@@ -452,15 +481,25 @@ const Education = () => {
 																konstruktor
 															</h3>
 															<p className="">
-																{/* Lorem ipsum
-																dolor sit amet,
-																consectetuer
-																adipiscing elit,
-																sed diam nonummy
-																nibh euismod
-																tincidunt ut
-																laoreet diam
-																nonummy. */}
+																Arxitektor
+																tomonidan ishlab
+																chiqilgan va
+																byurtmachi
+																tominidan
+																tasdiqlangan
+																devor rejasi
+																bo’yicha to’liq
+																konstruktiv
+																yechimlarini
+																loyihalashda
+																muahdisdan
+																kerakli
+																ko’nikmalarni
+																o’rganish va
+																qurilish
+																me’yoriy
+																qoidalarini
+																amalda bajarish.
 															</p>
 														</li>
 													</ul>

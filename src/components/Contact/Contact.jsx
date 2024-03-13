@@ -12,14 +12,14 @@ const Contact = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Get in touch
+                                Bog'lanish
                             </h5>
                             <h2
                                 className=""
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Contact me
+                                Men bilan bog'lanish
                             </h2>
                             <div
                                 className="atf-heading-seperator mt-3"
@@ -35,13 +35,13 @@ const Contact = () => {
                                 congue nisl dolor, id dapibus leo elementum
                                 posuere. Ut aliquam metus quis.
                             </p> */}
-                            <h3
+                            {/* <h3
                                 className=""
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Contact With me
-                            </h3>
+                                Men bilan bog'lanish
+                            </h3> */}
                         </div>
                     </div>
                 </div>
@@ -63,25 +63,25 @@ const Contact = () => {
                                 </div>
                             </div> */}
                             <div
-                                className="col-lg-6 col-md-6 col-12"
+                                className="col-lg-6 col-md-6 col-12 offset-md-3 offset-lg-3"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
                                 <div className="atf-contact-details">
                                     <i className="fa fa-phone"></i>
-                                    <h4>Mobile Number</h4>
-                                    <p>+135 773 321 4442</p>
+                                    <h4>Telefon raqam</h4>
+                                    <p>+998 (99) 730 76 56</p>
                                 </div>
                             </div>
                             <div
-                                className="col-lg-6 col-md-6 col-12"
+                                className="col-lg-6 col-md-6 col-12 offset-md-3 offset-lg-3"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
                                 <div className="atf-contact-details">
                                     <i className="fa fa-envelope"></i>
-                                    <h4>Email Address</h4>
-                                    <p>demo@example.com</p>
+                                    <h4>Email manzili</h4>
+                                    <p>doniyorovabror33@gmail.com</p>
                                 </div>
                             </div>
                         </div>
