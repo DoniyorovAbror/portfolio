@@ -1,0 +1,117 @@
+/*! ../../img/portfolio/2.jpg */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! ../../img/portfolio/9.jpg */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./index.css */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! ../../img/logo-black.png */
+
+/*! ../Portfolio/Portfolio */
+
+/*! ../Main/Main */
+
+/*! ../../img/portfolio/7.jpg */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! @mui/icons-material/WorkHistory */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! ../Footer/Footer */
+
+/*! ./components/HomePage/HomePage */
+
+/*! ./App */
+
+/*! react */
+
+/*! react-router-dom */
+
+/*! ../../img/portfolio/5.jpg */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! web-vitals */
+
+/*! react */
+
+/*! ../../img/portfolio/3.jpg */
+
+/*! ../Contact/Contact */
+
+/*! react/jsx-runtime */
+
+/*! aos */
+
+/*! react */
+
+/*! ../Navbar/Navbar */
+
+/*! react/jsx-runtime */
+
+/*! typed.js */
+
+/*! aos/dist/aos.css */
+
+/*! ../../img/portfolio/8.jpg */
+
+/*! ../Education/Education */
+
+/*! react/jsx-runtime */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! react */
+
+/*! ../../img/portfolio/6.jpg */
+
+/*! ../../img/portfolio/background.jpg */
+
+/*! react-dom/client */
+
+/*! bootstrap/dist/css/bootstrap.min.css */
+
+/*! @mui/icons-material/School */
+
+/*! ../Preloader/Preloader */
+
+/*! react-scroll */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/1.jpeg */
+
+/*! ../../img/portfolio/4.jpg */
+
+/*! react */
+
+/*! ./App.css */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/logo-white.png */
+
+/*! @fortawesome/free-brands-svg-icons */
+
+/*! ./reportWebVitals */
