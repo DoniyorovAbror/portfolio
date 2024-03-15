@@ -451,7 +451,7 @@ const Portfolio = () => {
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
-								className="col-lg-4 col-md-6 atf-grid-portfolio y2122 card-s"
+								className="col-lg-4 col-md-6 atf-grid-portfolio all y2122 card-s"
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
