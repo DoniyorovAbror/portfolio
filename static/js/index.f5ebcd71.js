@@ -3208,7 +3208,7 @@
                                                         }),
                                                         (0, e.jsx)("div", {
                                                             className:
-                                                                "col-lg-4 col-md-6 atf-grid-portfolio y2122 card-s",
+                                                                "col-lg-4 col-md-6 atf-grid-portfolio y2122 all card-s",
                                                             "data-aos":
                                                                 "fade-left",
                                                             "data-aos-duration":
