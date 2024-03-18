@@ -140,7 +140,7 @@ const Footer = () => {
                         <div className="col-md-12">
                             <p>&copy;Copyright - All Right Reserved.</p>
                             <p>
-                                Designed by <a href="#">Themes-family</a>
+                                Developed by <a href="#">Akbar Abdullaev</a>
                             </p>
                         </div>
                     </div>

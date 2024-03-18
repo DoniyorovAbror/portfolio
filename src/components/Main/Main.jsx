@@ -7,17 +7,16 @@ import {
 	faLinkedin,
 	faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 
 const Main = () => {
+	const { t } = useTranslation();
 	const el = useRef(null);
-
+	const who = t('who');
+	
 	useEffect(() => {
 		const typed = new Typed(el.current, {
-			strings: [
-				"Kimyoviy texnolog",
-				"Loyiha dizayneri",
-				"Loyiha muhandisi",
-			],
+			strings: [who],
 			typeSpeed: 40,
 			backSpeed: 40,
 			backDelay: 2000,
@@ -29,7 +28,7 @@ const Main = () => {
 		return () => {
 			typed.destroy();
 		};
-	}, []);
+	}, [who]);
 
 	return (
 		<section
@@ -43,21 +42,12 @@ const Main = () => {
 						data-aos="fade-right"
 						data-aos-duration="1000"
 					>
-						<h5>Salom, Men</h5>
+						<h5>{t("hello")}</h5>
 						<h2 className="mb-0 d-block d-lg-block">
 							Abror <span className="theme_gray"></span>
 							<span ref={el} className="typed-word"></span>{" "}
 						</h2>
-						<p className="">
-							Men uyushgan kimyo muhandisi, arxitektura va
-							qurilish dizayn muhandisi hamda yaxshi IT
-							ko'nikmalariga egaman. Menda jamoaviy ishlash va
-							muammolar va nizolarni professional tarzda hal
-							qilish qobiliyati bor. Tillarni o'rganish va juda
-							qiziquvchan madaniy xilma-xillikni kashf qilish.
-							Menda loyihalarni ishlab chiqish va nazorat qilishda
-							ko'p yillik tajriba bor.
-						</p>
+						<p className="">{t("introduction")}</p>
 						{/* <!-- Main-btn --> */}
 						{/* <div
                             className="atf-main-btn"

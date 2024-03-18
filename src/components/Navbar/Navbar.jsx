@@ -4,8 +4,11 @@ import wlogo from "../../img/logo-white.png";
 import blogo from "../../img/logo-black.png";
 import { faBars, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
+import Translation from "../Translation/Translation";
 
 const Navbar = () => {
+	const { t } = useTranslation();
 	const [isScrolled, setIsScrolled] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -60,13 +63,7 @@ const Navbar = () => {
 
 					<div className="col-lg-10 col-md-9 col-8 ">
 						<div className="header_right">
-							{/* <div className="language">
-								<ul>
-									<li>ru</li>
-									<li>uz</li>
-									<li>en</li>
-								</ul>
-							</div> */}
+							<Translation />
 							<nav id="main-menu" className="ms-auto">
 								<ul>
 									<li>
@@ -77,10 +74,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-
-											<FontAwesomeIcon icon={faHouse} /> 
-
-											
+											<FontAwesomeIcon icon={faHouse} />
 										</Link>
 									</li>
 
@@ -108,7 +102,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Ta'lim
+											{t("education")}
 										</Link>
 									</li>
 									<li>
@@ -120,7 +114,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Portfolio
+											{t('portfolio')}
 										</Link>
 									</li>
 									{/* <li>
@@ -138,7 +132,7 @@ const Navbar = () => {
 											offset={0}
 											duration={550}
 										>
-											Bog'lanish
+											{t("contact")}
 										</Link>
 									</li>
 								</ul>
@@ -163,7 +157,9 @@ const Navbar = () => {
 												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												<FontAwesomeIcon icon={faHouse}/>
+												<FontAwesomeIcon
+													icon={faHouse}
+												/>
 											</Link>
 										</li>
 
@@ -205,7 +201,7 @@ const Navbar = () => {
 												Portfolio
 											</Link>
 										</li>
-				
+
 										<li>
 											<Link
 												to="contact"

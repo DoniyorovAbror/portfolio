@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
+import { useTranslation } from "react-i18next";
 
 const Education = () => {
+	const { t } = useTranslation();
 	const [activeTab, setActiveTab] = useState("nav-interview");
 	const handleTabClick = (tab) => {
 		setActiveTab(tab);
@@ -22,14 +24,14 @@ const Education = () => {
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							>
-								8+ yil ish tajriba
+								{t("experienceYear")}
 							</h5>
 							<h2
 								className=""
 								data-aos="fade-up"
 								data-aos-duration="3000"
 							>
-								Ta'lim & Tajriba
+								{t("ed&exp")}
 							</h2>
 							<div
 								className="atf-heading-seperator mt-3"
@@ -78,7 +80,7 @@ const Education = () => {
 									role="tab"
 									aria-selected="false"
 								>
-									Ta'lim
+									{t("education")}
 								</a>
 								<a
 									className={`nav-item nav-link ${
@@ -94,7 +96,7 @@ const Education = () => {
 									aria-controls="nav-about"
 									aria-selected="true"
 								>
-									Tajriba
+									{t("experience")}
 								</a>
 								{/* <a
 									className={`nav-item nav-link ${
@@ -135,10 +137,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Toshkent
-															toʻqimachilik va
-															yengil sanoat
-															instituti
+															{t("institute")}
 														</h3>
 														<h6 className="atf-time">
 															2011-2015
@@ -158,12 +157,10 @@ const Education = () => {
 																<SchoolIcon />
 															</div>
 															<h3>
-																Bakalavr
-																darajasi
+																{t("bachelor")}
 															</h3>
 															<p className="">
-																Kimyoviy
-																texnologiya
+																{t("facility")}
 															</p>
 														</li>
 													</ul>
@@ -191,7 +188,7 @@ const Education = () => {
 															<div className="atf-single-icon">
 																<SchoolIcon />
 															</div>
-															<h3>Sertifikat</h3>
+															<h3>{t("sertificate")}</h3>
 															<p className="">
 																Python Full
 																Stack Web
@@ -265,10 +262,10 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Proekt Pro MChJ
+															{t("proektpro")}
 														</h3>
 														<h6 className="atf-time">
-															2019 -
+														{t("proektpro_year")}
 														</h6>
 													</div>
 												</div>
@@ -284,30 +281,9 @@ const Education = () => {
 															<div className="atf-single-icon">
 																<WorkHistoryIcon />
 															</div>
-															<h3>Direktor</h3>
+															<h3>{t("director")}</h3>
 															<p className="">
-																To’g’ridan-to’g’ri
-																byurtmachilar
-																bilan
-																muzokoralar olib
-																borish,
-																shartnomalar
-																tuzish va
-																hodimlarga
-																ishlarni
-																taqsimlash,
-																loyihalarni o’z
-																vaqtida sifatli
-																bajarishni
-																nazorat qilish,
-																qurilish
-																obektlarini
-																nazorat qilish,
-																kamchiliklarni
-																o’z vaqtida
-																bartataf
-																etishlardan
-																iborat
+																{t('proektpro_response')}
 															</p>
 														</li>
 													</ul>
@@ -317,8 +293,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Me’mor-Arxitektura-Servis
-															MChJ
+															{t("me'mor")}
 														</h3>
 														<h6 className="atf-time">
 															2018-2019
@@ -337,18 +312,10 @@ const Education = () => {
 																<WorkHistoryIcon />
 															</div>
 															<h3>
-																Bosh muhandis
+																{t("chief_engineer")}
 															</h3>
 															<p className="">
-																Loyiha smeta
-																hujjatlarini
-																nazorat qilish,
-																hodimlarga
-																ishlarni
-																taqsimlash va
-																kerakli
-																echimlarni
-																berish
+																{t('chief_response')}
 															</p>
 														</li>
 													</ul>
@@ -359,8 +326,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Me’mor-Arxitektura-Servis
-															MChJ
+															{t("me'mor")}
 														</h3>
 														<h6 className="atf-time">
 															2017-2018
@@ -379,29 +345,10 @@ const Education = () => {
 																<WorkHistoryIcon />
 															</div>
 															<h3>
-																Shamollatish va
-																Isitish bo’limi
-																muhandisi
+																{t("engineer")}
 															</h3>
 															<p className="">
-																Arxitektor
-																ishlab chiqgan
-																va byurtmachi
-																tomonidan
-																tasdiqlangan
-																devor rejasini
-																o’rganib
-																amaldagi meyoriy
-																qoidar asosida
-																va obektning
-																joylashgan joyi,
-																quvvati, turidan
-																kelib chiqib
-																isitish va
-																shamollatish,
-																sovutish
-																loyihalarini
-																bajarish.
+																{t("engineer_response")}
 															</p>
 														</li>
 													</ul>
@@ -411,8 +358,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Termiz-Ta’mir-Loyiha
-															MChJ
+															{t("termiz_ta'mir")}
 														</h3>
 														<h6 className="atf-time">
 															2016-2017
@@ -431,23 +377,10 @@ const Education = () => {
 																<WorkHistoryIcon />
 															</div>
 															<h3>
-																Konstruktor-muhandis
+																{t('constructor')}
 															</h3>
 															<p className="">
-																Arxitektor
-																tomonidan ishlab
-																chiqilgan va
-																byurtmachi
-																tominidan
-																tasdiqlangan
-																devor rejasi
-																bo’yicha to’liq
-																konstruktiv
-																yechimlarini
-																loyihalash, yani
-																yer ishlaridan
-																tortib bino
-																tomigacha.
+																{t('constructor_response')}
 															</p>
 														</li>
 													</ul>
@@ -457,8 +390,7 @@ const Education = () => {
 												<div className="col-lg-4 col-md-4">
 													<div className="atf-resume-info">
 														<h3 className="atf-place">
-															Termiz-Ta’mir-Loyiha
-															MChJ
+															{t("termiz_ta'mir")}
 														</h3>
 														<h6 className="atf-time">
 															2015-2016
@@ -477,29 +409,10 @@ const Education = () => {
 																<WorkHistoryIcon />
 															</div>
 															<h3>
-																Ish o’rganuvchi
-																konstruktor
+																{t('practicing_constr')}
 															</h3>
 															<p className="">
-																Arxitektor
-																tomonidan ishlab
-																chiqilgan va
-																byurtmachi
-																tominidan
-																tasdiqlangan
-																devor rejasi
-																bo’yicha to’liq
-																konstruktiv
-																yechimlarini
-																loyihalashda
-																muahdisdan
-																kerakli
-																ko’nikmalarni
-																o’rganish va
-																qurilish
-																me’yoriy
-																qoidalarini
-																amalda bajarish.
+																{t('practicing_constr_resp')}
 															</p>
 														</li>
 													</ul>

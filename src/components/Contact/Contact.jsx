@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+    const {t} = useTranslation();
     return (
         <section id="contact" className="atf-contact-area atf-section-padding">
             <div className="container">
@@ -12,14 +14,14 @@ const Contact = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Bog'lanish
+                                {t('contact')}
                             </h5>
                             <h2
                                 className=""
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Men bilan bog'lanish
+                                {t("contact_me")}
                             </h2>
                             <div
                                 className="atf-heading-seperator mt-3"
@@ -69,7 +71,7 @@ const Contact = () => {
                             >
                                 <div className="atf-contact-details">
                                     <i className="fa fa-phone"></i>
-                                    <h4>Telefon raqam</h4>
+                                    <h4>{t("tel")}</h4>
                                     <p>+998 (99) 730 76 56</p>
                                 </div>
                             </div>
@@ -80,7 +82,7 @@ const Contact = () => {
                             >
                                 <div className="atf-contact-details">
                                     <i className="fa fa-envelope"></i>
-                                    <h4>Email manzili</h4>
+                                    <h4>{t("email")}</h4>
                                     <p>doniyorovabror33@gmail.com</p>
                                 </div>
                             </div>
