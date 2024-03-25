@@ -120,9 +120,9 @@ const Portfolio = () => {
 								data-aos="fade-right"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={background}
+									// href={background}
 								>
 									<figure>
 										<div className="image-box">
@@ -151,7 +151,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -159,9 +159,9 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_2}
+									// href={photo_2}
 								>
 									<figure>
 										<div className="image-box">
@@ -189,7 +189,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -197,9 +197,9 @@ const Portfolio = () => {
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_3}
+									// href={photo_3}
 								>
 									<figure>
 										<div className="image-box">
@@ -230,7 +230,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 
 							<div
@@ -238,9 +238,9 @@ const Portfolio = () => {
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_3}
+									// href={photo_3}
 								>
 									<figure>
 										<div className="image-box">
@@ -263,16 +263,16 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							<div
 								className="col-lg-4 col-md-6 atf-grid-portfolio all y1718 card-s"
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_3}
+									// href={photo_3}
 								>
 									<figure>
 										<div className="image-box">
@@ -295,7 +295,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -346,9 +346,9 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_5}
+									// href={photo_5}
 								>
 									<figure>
 										<div className="image-box">
@@ -380,7 +380,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -388,9 +388,9 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_6}
+									// href={photo_6}
 								>
 									<figure>
 										<div className="image-box">
@@ -419,16 +419,16 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							<div
 								className="col-lg-4 col-md-6 atf-grid-portfolio all y2122 card-s"
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_6}
+									// href={photo_6}
 								>
 									<figure>
 										<div className="image-box">
@@ -447,7 +447,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -455,9 +455,9 @@ const Portfolio = () => {
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_7}
+									// href={photo_7}
 								>
 									<figure>
 										<div className="image-box">
@@ -475,7 +475,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -483,9 +483,9 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_8}
+									// href={photo_8}
 								>
 									<figure>
 										<div className="image-box">
@@ -511,7 +511,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -519,9 +519,9 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_9}
+									// href={photo_9}
 								>
 									<figure>
 										<div className="image-box">
@@ -552,16 +552,16 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 							<div
 								className="col-lg-4 col-md-6 atf-grid-portfolio all y2122 card-s"
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<a
+								<div
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_9}
+									// href={photo_9}
 								>
 									<figure>
 										<div className="image-box">
@@ -592,7 +592,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</a>
+								</div>
 							</div>
 						</div>
 
