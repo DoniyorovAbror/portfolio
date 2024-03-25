@@ -1,0 +1,143 @@
+/*! react/jsx-runtime */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! ../../img/logo-black.png */
+
+/*! react-i18next */
+
+/*! @mui/icons-material/School */
+
+/*! ../Preloader/Preloader */
+
+/*! react */
+
+/*! ../../img/portfolio/6.jpg */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! ../../img/1.jpeg */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/portfolio/4.jpg */
+
+/*! @fortawesome/free-brands-svg-icons */
+
+/*! react-dom/client */
+
+/*! web-vitals */
+
+/*! bootstrap/dist/css/bootstrap.min.css */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! react-i18next */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! react */
+
+/*! react */
+
+/*! i18next */
+
+/*! ../../img/portfolio/9.jpg */
+
+/*! ./App.css */
+
+/*! ../Portfolio/Portfolio */
+
+/*! ../Main/Main */
+
+/*! ../../img/portfolio/background.jpg */
+
+/*! @mui/icons-material/WorkHistory */
+
+/*! ./reportWebVitals */
+
+/*! react/jsx-runtime */
+
+/*! react-i18next */
+
+/*! ../Footer/Footer */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/portfolio/7.jpg */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! ./index.css */
+
+/*! react */
+
+/*! react-i18next */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! react */
+
+/*! ../public/locales/uz/translation.json */
+
+/*! ../../img/portfolio/5.jpg */
+
+/*! react-scroll */
+
+/*! react/jsx-runtime */
+
+/*! ./components/HomePage/HomePage */
+
+/*! ../Contact/Contact */
+
+/*! ./App */
+
+/*! aos */
+
+/*! react-i18next */
+
+/*! ../public/locales/en/translation.json */
+
+/*! react-router-dom */
+
+/*! ../../img/portfolio/3.jpg */
+
+/*! ../Navbar/Navbar */
+
+/*! react */
+
+/*! typed.js */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/logo-white.png */
+
+/*! aos/dist/aos.css */
+
+/*! ../Education/Education */
+
+/*! react-i18next */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ../Translation/Translation */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! ../../img/portfolio/8.jpg */
+
+/*! ./i18n */
+
+/*! ../Preloader/Preloader */
