@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import photo_1 from "../../img/portfolio/1.jpg";
-import photo_2 from "../../img/portfolio/2.jpg";
+import photo_27 from "../../img/portfolio/27-flat-block.png";
 import photo_3 from "../../img/portfolio/3.jpg";
-import photo_4 from "../../img/portfolio/4.jpg";
+import photo_23 from "../../img/portfolio/23-school-Shurchi.png";
 import photo_5 from "../../img/portfolio/5.jpg";
 import photo_6 from "../../img/portfolio/6.jpg";
 import photo_7 from "../../img/portfolio/7.jpg";
-import photo_8 from "../../img/portfolio/8.jpg";
+import photo_17 from "../../img/portfolio/17-kids.png";
 import photo_9 from "../../img/portfolio/9.jpg";
 import background from "../../img/portfolio/background.jpg";
 
@@ -303,13 +303,13 @@ const Portfolio = () => {
 								data-aos="fade-right"
 								data-aos-duration="1000"
 							>
-								<div
+								<a
 									className="atf-popup-img atf-single-portfolio"
-									// href={photo_4}
+									 href={photo_23}
 								>
 									<figure>
 										<div className="image-box">
-											<img src={photo_4} alt="img" />
+											<img src={photo_23} alt="img" />
 											<div className="atf-hover-portfolio">
 												<div className="atf-portfolio-content">
 													<p>
@@ -338,7 +338,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</div>
+								</a>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -483,17 +483,17 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<div
+								<a
 									className="atf-popup-img atf-single-portfolio"
-									// href={photo_8}
+									href={photo_17}
 								>
 									<figure>
 										<div className="image-box">
-											<img src={photo_8} alt="img" />
+											<img src={photo_17} alt="img" />
 											<div className="atf-hover-portfolio">
 												<div className="atf-portfolio-content">
 													<p>
-														Sherabod tumani 17-sonli
+														Sherobod tumani 17-sonli
 														maktabgacha ta’lim
 														muassasasiga 90 o’rinli
 														yangi blog qurish.
@@ -511,7 +511,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</div>
+								</a>
 							</div>
 							{/* <!-- portfolio-item --> */}
 							<div
@@ -519,13 +519,13 @@ const Portfolio = () => {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<div
+								<a
 									className="atf-popup-img atf-single-portfolio"
-									// href={photo_9}
+									href={photo_27}
 								>
 									<figure>
 										<div className="image-box">
-											<img src={photo_9} alt="img" />
+											<img src={photo_27} alt="img" />
 											<div className="atf-hover-portfolio">
 												<div className="atf-portfolio-content">
 													<p>
@@ -552,26 +552,26 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</div>
+								</a>
 							</div>
 							<div
 								className="col-lg-4 col-md-6 atf-grid-portfolio all y2122 card-s"
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								<div
+								<a
 									className="atf-popup-img atf-single-portfolio"
-									// href={photo_9}
+									href={photo_27}
 								>
 									<figure>
 										<div className="image-box">
-											<img src={photo_9} alt="img" />
+											<img src={photo_27} alt="img" />
 											<div className="atf-hover-portfolio">
 												<div className="atf-portfolio-content">
 													<p>
 														Termiz tumanida
 														chegarani qo’riqlash
-														postlariga 27-xonado
+														postlariga 27-xonadon
 														3-qavatli 2 ta jami
 														qiymati 21.4 mlrd
 														bo’lgan turar joy
@@ -592,7 +592,7 @@ const Portfolio = () => {
 											</div>
 										</div>
 									</figure>
-								</div>
+								</a>
 							</div>
 						</div>
 
