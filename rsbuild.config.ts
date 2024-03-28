@@ -2,15 +2,11 @@ import { defineConfig } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
 
 export default defineConfig({
+	html: { title: 'Portfolio' },
 	plugins: [pluginReact()],
-	html: {
-		template: "./public/index.html",
-	},
 	output: {
-		distPath: {
-			root: "build",
-		},
-		polyfill: 'off',
+	  distPath: {
+		root: 'build',
+	  },
 	},
-	
-});
+  });
