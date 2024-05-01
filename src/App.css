@@ -1457,12 +1457,12 @@ textarea:focus {
 	display: block;
 	overflow: hidden;
 }
-/* .atf-single-portfolio .atf-hover-portfolio:hover {
+.atf-single-portfolio .atf-hover-portfolio:hover {
 	opacity: 0.9;
 	transition: 0.4s ease-out 0.2s;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
-} */
+}
 
 .atf-single-portfolio .atf-hover-portfolio {
 	position: absolute;
@@ -1477,10 +1477,10 @@ textarea:focus {
 	transition: 0.4s ease-out 0s;
 	-webkit-transform: translateY(-30px);
 	transform: translateY(-30px);
-	opacity: 0.9;
+	/* opacity: 0.9;
 	transition: 0.4s ease-out 0.2s;
 	-webkit-transform: translateY(0);
-	transform: translateY(0);
+	transform: translateY(0); */
 }
 
 .atf-single-portfolio .atf-hover-portfolio .atf-portfolio-content {

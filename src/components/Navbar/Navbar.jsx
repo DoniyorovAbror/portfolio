@@ -190,7 +190,7 @@ const Navbar = () => {
 												// duration={750}
 												onClick={handleMobileMenu}
 											>
-												Ta'lim
+												{t("education")}
 											</Link>
 										</li>
 										<li>
@@ -198,7 +198,7 @@ const Navbar = () => {
 												to="portfolio"
 												onClick={handleMobileMenu}
 											>
-												Portfolio
+												{t('portfolio')}
 											</Link>
 										</li>
 
@@ -207,7 +207,7 @@ const Navbar = () => {
 												to="contact"
 												onClick={handleMobileMenu}
 											>
-												Bog'lanish
+												{t("contact")}
 											</Link>
 										</li>
 									</ul>
