@@ -7,7 +7,7 @@ import photo_5 from "../../img/portfolio/5.jpg";
 import photo_6 from "../../img/portfolio/6.jpg";
 import photo_7 from "../../img/portfolio/7.jpg";
 import photo_17 from "../../img/portfolio/17-kids.png";
-import photo_9 from "../../img/portfolio/9.jpg";
+import photo_30 from "../../img/portfolio/30-flat-block.png";
 import background from "../../img/portfolio/background.jpg";
 
 const Portfolio = () => {
@@ -127,7 +127,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={background} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Dastlabki ishimni shu
@@ -166,7 +166,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={background} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Surxonadaryo viloyati
@@ -204,7 +204,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_3} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Surxonadaryo viloyati
@@ -245,7 +245,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_3} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Surxonadaryo viloyati
@@ -277,7 +277,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_3} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Surxonadaryo viloyati
@@ -353,7 +353,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_5} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Sariosiyo tumaniga 150
@@ -395,7 +395,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_6} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Sherabod tumanida
@@ -433,7 +433,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_6} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Sherabod tumani 40-sonli
@@ -462,7 +462,7 @@ const Portfolio = () => {
 									<figure>
 										<div className="image-box">
 											<img src={photo_7} alt="img" />
-											<div className="atf-hover-portfolio">
+											<div className="atf-hover-portfolio without-photo">
 												<div className="atf-portfolio-content">
 													<p>
 														Sherabod tumani 40-sonli
@@ -561,11 +561,11 @@ const Portfolio = () => {
 							>
 								<a
 									className="atf-popup-img atf-single-portfolio"
-									href={photo_27}
+									href={photo_30}
 								>
 									<figure>
 										<div className="image-box">
-											<img src={photo_27} alt="img" />
+											<img src={photo_30} alt="img" />
 											<div className="atf-hover-portfolio">
 												<div className="atf-portfolio-content">
 													<p>
