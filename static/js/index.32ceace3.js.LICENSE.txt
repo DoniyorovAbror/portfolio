@@ -1,0 +1,159 @@
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! ../../img/logo-black.png */
+
+/*! react */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! react */
+
+/*! core-js/modules/esnext.async-iterator.for-each.js */
+
+/*! ../public/locales/uz/translation.json */
+
+/*! react */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! react/jsx-runtime */
+
+/*! react-i18next */
+
+/*! ../../img/portfolio/17-kids.png */
+
+/*! ../../img/portfolio/5.jpg */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! ./index.css */
+
+/*! ../../img/portfolio/27-flat-block.png */
+
+/*! ../Contact/Contact */
+
+/*! ../public/locales/en/translation.json */
+
+/*! react-i18next */
+
+/*! react-i18next */
+
+/*! ../../img/portfolio/6.jpg */
+
+/*! ./App */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! aos/dist/aos.css */
+
+/*! react-i18next */
+
+/*! react/jsx-runtime */
+
+/*! ../Navbar/Navbar */
+
+/*! react-i18next */
+
+/*! ../../img/portfolio/7.jpg */
+
+/*! react/jsx-runtime */
+
+/*! react-i18next */
+
+/*! ../Education/Education */
+
+/*! ../../img/portfolio/background.jpg */
+
+/*! react-i18next */
+
+/*! react/jsx-runtime */
+
+/*! bootstrap/dist/css/bootstrap.min.css */
+
+/*! react */
+
+/*! typed.js */
+
+/*! ../Preloader/Preloader */
+
+/*! @mui/icons-material/School */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! react */
+
+/*! ./App.css */
+
+/*! core-js/modules/esnext.iterator.constructor.js */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ../../img/portfolio/3.jpg */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! react/jsx-runtime */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! ./i18n */
+
+/*! react-dom/client */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! react-scroll */
+
+/*! ../../img/portfolio/30-flat-block.png */
+
+/*! ../../img/portfolio/23-school-Shurchi.png */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! core-js/modules/esnext.iterator.for-each.js */
+
+/*! ../Preloader/Preloader */
+
+/*! ../../img/1.jpeg */
+
+/*! react */
+
+/*! i18next */
+
+/*! aos */
+
+/*! ../../img/logo-white.png */
+
+/*! ../Portfolio/Portfolio */
+
+/*! ../Main/Main */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! react/jsx-runtime */
+
+/*! @fortawesome/free-brands-svg-icons */
+
+/*! ./components/HomePage/HomePage */
+
+/*! ../Translation/Translation */
+
+/*! ../Footer/Footer */
+
+/*! @mui/icons-material/WorkHistory */
+
+/*! react */
